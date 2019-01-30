@@ -1,4 +1,4 @@
-FROM jupyter/datascience-notebook
+FROM continuumio/anaconda
 
 WORKDIR  /app
 RUN mkdir /app/notebooks
